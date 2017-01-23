@@ -1,0 +1,25 @@
+# node and npm
+- Installing nodejs/npm with nvm  https://github.com/coreybutler/nvm-windows
+  - nvm
+    -  `nvm list`   - list installed versions
+    -  `nvm list available`  - list available versions
+    -  `nvm use <version>`  - Ex:  `nvm use 6.2.2`  
+- Project init (npm init, creating package.json)
+- Using npm
+  - installing -  `npm install`  |  `npm i`  |  `npm isntall`  
+    -  `-S or --save`   
+    -  `-D or --save-dev`  
+    -  `-g`  install globally
+  - removing -  `npm uninstall`  |  `npm un`  |  `npm r`  |  `npm rm`  
+  - updating -  `npm outdated`   and  `npm update`  
+  - SemVer
+    - major.minor.patch
+    - https://docs.npmjs.com/getting-started/semantic-versioning
+  - .npmrc settings 
+    -  `save-exact`  https://docs.npmjs.com/misc/config#save-exact
+  - depedencies vs devDependecies
+  - Global / Local install
+  - Npm scripts
+    -  `npm run`  
+    -  `pre*`  
+    -  `post*`  
