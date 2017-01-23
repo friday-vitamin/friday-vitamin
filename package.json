@@ -1,0 +1,28 @@
+{
+  "name": "friday-vitamin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "echo \"Pre Build Command\"",
+    "build": "echo \"Build Command\"",
+    "postbuild": "echo \"Post Build Command\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catalinxyz/friday-vitamin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catalinxyz/friday-vitamin/issues"
+  },
+  "homepage": "https://github.com/catalinxyz/friday-vitamin#readme",
+  "dependencies": {
+    "jquery": "3.1.1"
+  },
+  "devDependencies": {
+    "webpack": "1.14.0"
+  }
+}
