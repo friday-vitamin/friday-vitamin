@@ -1,28 +1,32 @@
 {
   "name": "friday-vitamin",
   "version": "1.0.0",
-  "description": "",
+  "description": "A series on building an app from A to Z",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "echo \"Pre Build Command\"",
     "build": "echo \"Build Command\"",
-    "postbuild": "echo \"Post Build Command\""
+    "postbuild": "echo \"Post Build Command\"",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catalinxyz/friday-vitamin.git"
+    "url": "git+https://github.com/friday-vitamin/friday-vitamin.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/catalinxyz/friday-vitamin/issues"
+    "url": "https://github.com/friday-vitamin/friday-vitamin"
   },
-  "homepage": "https://github.com/catalinxyz/friday-vitamin#readme",
-  "dependencies": {
-    "jquery": "3.1.1"
-  },
+  "homepage": "https://github.com/friday-vitamin/friday-vitamin#readme",
   "devDependencies": {
-    "webpack": "1.14.0"
+    "css-loader": "0.26.1",
+    "html-webpack-plugin": "2.26.0",
+    "node-sass": "4.3.0",
+    "sass-loader": "4.1.1",
+    "style-loader": "0.13.1",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "1.16.2"
   }
 }
